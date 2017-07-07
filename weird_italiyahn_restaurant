@@ -1,0 +1,38 @@
+import random
+import time
+
+drinks = ["mango smoothie", "coke", "sprite", "chai tea", "green tea", "tonic water", "ginger ale", "the blood of your enemies", "fiji water", "dasani", "artesian dirty tap water", "engine exhaust", "liquid nitrogen", "butane", "hotel shampoo", "bubble tea, but instead of the stuff at the bottom, mentos, and instead of tea, coke"]
+appetizers = ["fries", "onion rings", "bread and butter", "stale chips", "the earwax of your ancestors", "salad without the lettuce, only the croutons", "fruit salad", "fried pickles", "tofu spring rolls"]
+main_course = ["lasagna, but instead of marinara sauce, ketchup", "pizza without the dough", "tri-color rotini topped with ranch dressing", "manicotti stuffed with crushed canned sardines", "12 Angry Men", "Frozen Spaghetti served with boiling marinara sauce on the side", "Dove Chicken Noodle Soap", ]
+sides = ["salt with fries", "butter with bread", "ranch dressing with lettuce and spinach", "croutons with lettuce and spinach", "fruit salad, using only fruits that have yellow skin", "that pink stuff that the orthodontist uses to make a mold of your teeth", "astronaut sorbet"]
+desserts = ["whipped-cream sprayed directly into your mouth", "coffee cream and ice cubes", "sugar cube bowl", "candied apple cores", "the frosting packets that come with toaster strudels", "toaster strudel without the frosting", "apple pie but instead of apples, eggplant", "cotton candy powder", "cheeto powder fun dip", "Paul Ryan Flakes"]
+
+print("Welcome to the Weird Italiyahn Restaurant!")
+time.sleep(1)
+print("Serving Random Randomly Generated Meals Since An Hour Ago")
+time.sleep(1)
+print("Please wait while I randomly prepare your meal...")
+time.sleep(3)
+print("Here you go.")
+time.sleep(1)
+print("Drink:")
+time.sleep(1)
+print(random.choice(drinks))
+time.sleep(2)
+print("Appetizers:")
+time.sleep(1)
+print(random.choice(appetizers))
+time.sleep(2)
+print("Main Course:")
+time.sleep(1)
+print(random.choice(main_course))
+time.sleep(2)
+print("Side:")
+time.sleep(1)
+print(random.choice(sides))
+time.sleep(2)
+print("Dessert:")
+time.sleep(1)
+print(random.choice(desserts))
+time.sleep(2)
+print("Enjoy!")
